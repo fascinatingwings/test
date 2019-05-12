@@ -1,0 +1,82 @@
+  
+  .menu-container {
+    color: white;
+    background-color: black;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-container button {
+    display: flex;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .header-container {
+    margin: 10px;
+    padding: 15px;
+    color: black;
+    background-color: #DD4f31;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer {
+    background-color: rgb(40, 40, 122);
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+  }
+
+  #bold {
+    font-weight: bold;
+}
+  #color {
+    font-size: 1.5em;
+} .red {
+  color: red;
+} .blue {
+  color: blue;
+} .magenta {
+  color: magenta;
+} .green {
+  color: green;
+}
+.skills {
+    font-family: 'Shadows Into Light';
+    font-size: 5em;
+}
+#links {
+    border: 4px dashed purple;
+    margin: 15px;
+    padding: -5px 5px 5px 5px;
+    display: flex;
+    flex-direction: inline;
+    justify-content: space-around;    
+}
+/* #jobs {
+    border: 4px solid brown;
+} */
+#jobs:hover {
+    color: yellow;
+}
+html, body {
+  height: 100%;
+  margin: 15px;
+}
+.footer {
+  flex-shrink: 0;
+}
+

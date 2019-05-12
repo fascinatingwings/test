@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Final Project</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <ul class="nav nav-tabs">
+        <li class="active">
+            <a href="home.html">
+                <span class="glyphicon glyphicon-home"></span> Home
+            </a>
+        </li>
+        <li>
+            <a href="profile.html">
+                <span class="glyphicon glyphicon-user"></span> User's Profile
+            </a>
+        </li>
+        <li>
+            <a href="messages.html">
+                <span class="glyphicon glyphicon-envelope"></span> Messages
+            </a>
+        </li>
+    </ul>
+
+    <div class="menu-container">
+        <div class="menu">
+            <div class="date"></div>
+            <label for="date">Today's Date</label><br>
+            <input type="number" id="date" />
+            <div class="signup">
+                <label for="signup">Sign Up</label><br>
+                <input type="text" id="newAccount" /></div>
+            <div class="login">
+                <label for="login">Login</label><br>
+                <input type="text" id="userName" /></div>
+            <div>
+                <ul id="gitHubRepo">
+                    <button onclick="loadRepo()">Git Repo's</button>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <h1>Jacob Santos: Web Developer</h1>
+    <div class='header-container'>
+        <div class='header'>
+            <div class='skills'>Job Skills</div>
+            <ul id="jobs">
+                <li>Javascript</li>
+                <li>Ruby</li>
+                <li>Bootstrap</li>
+                <li>Flexbox</li>
+            </ul>
+
+            <div class='portrait'>
+                <img src='https://pbs.twimg.com/profile_images/1006244522332848145/k5DYj360_400x400.jpg' />
+            </div>
+            <br>
+            <div class='icons'>
+                <img src='' />
+            </div>
+        </div>
+    </div>
+    <div class="image-grid-container">
+        <div id="bold">
+            Thank you for visiting my page<span class="blue"> look around</span> and<span class="red"> tell me</span>
+            what you think.
+        </div>
+        <br />
+        <div id="color">
+            My name is <span class="magenta">Jacob Santos.</span> I have been a Science Teacher for the last 3 years. I
+            love <span class="green">
+                Science.</span> I find it to be a creative and interesting field. It is full of<span class="green">
+                living things</span> and dynamically changing events. In 2008, I got the priveledge to travel to
+            Equador with a group of Geologist majors. We were all a<span class="blue"> bunch of babies</span> in our
+            early twenties, but that didn't stop us from exploring the <span class="magenta">Amazon Rainforest or
+                visiting Quito... Equador's Capital... and standing less then 100 feet away from the President.</span>
+            I
+            even got to stand at the center of the globe on the<span class="red"> Earth's Equator!</span>
+        </div>
+        <ul id="links">
+            <li><a href="https://twitter.com/jacob_jsantos" target="_blank">Twitter Me!
+                    <span class="social social-twitter"></span></a></li>
+            <li><a href="https://www.facebook.com/jacob.santos.9279" target="_blank">Check out my Facebook!
+                    <span class="social social-facebook"></span></a></li>
+            <li><a href="https://github.com/fascinatingwings" target="_blank">Lets GitHub!
+                    <span class="social social-github"></span></a></li>
+            <li><a href="https://www.linkedin.com/in/jacob-santos-721a25167/" target="_blank">LinkedIn
+                    <span class="social social-linked-in"></span></a></li>
+        </ul>
+        </ul>
+
+    </div>
+    <div class='footer'>
+        <div class='footer-item footer-one'> <a href="https://twitter.com/jacob_jsantos">
+                <span class="glyphicon glyphicon-envelope"></span>
+            </a> <!-- <i class="glyphicon glyphicon-envelope"></i> -->
+            <a href="https://github.com/fascinatingwings">
+                <span class="glyphicon glyphicon-fire"></span>
+            </a>
+            <a href="https://www.linkedin.com/in/jacob-santos-721a25167/">
+                <span class="glyphicon glyphicon-star"></span>
+            </a>
+        </div>
+        <div class='footer-item footer-two'>
+            <div class='skills'>Contact me at my Email: fascinatingwings@yahoo.com</div>
+        </div>
+    </div>
+    <div class='footer-item footer-three'>
+        <div class="copyright">Copyright &copy; 2018</div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
